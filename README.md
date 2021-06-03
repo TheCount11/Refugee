@@ -16,15 +16,15 @@ Anaconda (https://docs.anaconda.com/anaconda/install/)
 
 Alternate **Install** in case of issues:
 
-     git clone https://gitlab.vgiscience.de/ad/mobile_cart_workshop2020.git \
-     cd mobile_cart_workshop2020\
-     #not necessary, but recommended :\
-     conda config --env --set channel_priority strict\
+     git clone https://gitlab.vgiscience.de/ad/mobile_cart_workshop2020.git 
+     cd mobile_cart_workshop2020
+     #not necessary, but recommended :
+     conda config --env --set channel_priority strict
      conda env create -f environment_default.yml  
 
 And then 
 
-    conda activate workshop_env\
+    conda activate workshop_env
     conda install -c conda-forge 'ipywidgets=7.6.*' \
               jupyter_contrib_nbextensions \
               jupyter_nbextensions_configurator \
